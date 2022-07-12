@@ -562,7 +562,7 @@ pub struct DraffleProgramTest {
 
 impl DraffleProgramTest {
     pub async fn start_new() -> Self {
-        let program_id = Pubkey::from_str("raFv43GLKy2ySi5oVExZxFGwdbKRRaDQBqikiY9YbVF").unwrap();
+        let program_id = Pubkey::from_str("raFZKVmR1KKgq4u6agEpfv9iyA5TWSrevrabLmo7eJL").unwrap();
         let pt = ProgramTest::new("draffle", program_id.clone(), processor!(draffle::entry));
 
         let mut context = pt.start_with_context().await;

@@ -23,17 +23,52 @@ const testWhitelist = new Map<string, RaffleMetaData>([
 
 const prodWhitelist = new Map<string, RaffleMetaData>([
   [
-    'HpCtUDuAMzsjiZD9bBDbLDrfniw7qAP4CbxwUzobsBFq',
+    'B1o85io2sg2fe8cCyAZzs1P5mV1FEqwXEMxzdQmPBFqS',
     {
-      name: 'TEST raffle',
-      // overviewImageUri: '/resources/quack.png',
+      name: 'HIGH ROLLER RAFFLE',
+      overviewImageUri: '/resources/HR-SAMPLE.png',
     },
   ],
   [
-    'EXJPFGP7FSUVdG1zEnbcCdnjpm7QBBsS6uBSRL3wv362',
+    'HVLCQedjPQZNVAxqF1yRaiMS1x38u214n9iCHpU9Ba5F',
     {
-      name: 'SOL Raffle',
-      // overviewImageUri: '/resources/stoned.png',
+      name: 'HIGH JUICE RAFFLE',
+      overviewImageUri: '/resources/JUICELOGO.png',
+    },
+  ],
+  [
+    'FRGonS74qLUgUZKsqKwLxLumX4qyudgn4e9B17mm6991',
+    {
+      name: 'HIGH JUICE #120',
+      overviewImageUri: '/resources/JUICELOGO.png',
+    },
+  ],
+  [
+    'CxTfR4vapzcyhyGrDQaPDxt6Tw6xtkEK5NdcFVKT5H4p',
+    {
+      name: 'HR #5',
+      overviewImageUri: '/resources/HR-SAMPLE.png',
+    },
+  ],
+  [
+    '5XBgBqQpZm824mJdS6oGidUBSPQrBQ5wCmMxPVqFQrw5',
+    {
+      name: 'HR #5',
+      overviewImageUri: '/resources/HR-SAMPLE.png',
+    },
+  ],
+  [
+    '6JoAK9mmB5fgJmSTZdYSkR7EY3HQPmUMUqTtJEzprQ7i',
+    {
+      name: 'NEW RAFFLE222',
+      overviewImageUri: '/resources/raffleBG.png',
+    },
+  ],
+  [
+    '7j1HKPQKfzwqw2toHB9Px3Tw75GVsPpfNDTRhQh8zfg7',
+    {
+      name: 'NEW RAFFLE111',
+      overviewImageUri: '/resources/rafflebg.png',
     },
   ],
 ]);
