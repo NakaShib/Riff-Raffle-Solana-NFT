@@ -34,7 +34,7 @@ pub struct ConfigOverride {
     #[clap(
         global = true,
         long = "program-id",
-        default_value = "raFv43GLKy2ySi5oVExZxFGwdbKRRaDQBqikiY9YbVF"
+        default_value = "rAFWJES5FBuTTy9U8gcD4YXwaGdKfHt5hE3xtiQYPRq"
     )]
     pub program_id: String,
 }
@@ -101,7 +101,7 @@ pub fn entry(opts: Opts) -> Result<()> {
     };
     let client = Client::new_with_options(url, Rc::new(payer), CommitmentConfig::processed()); // client: Client::new and Client::new_with_options now accept Rc<dyn Signer> instead of Keypair (#975).
     let program_id: Pubkey = FromStr::from_str(&opts.cfg_override.program_id)?;
-    // let program_id: Pubkey = FromStr::from_str("raFv43GLKy2ySi5oVExZxFGwdbKRRaDQBqikiY9YbVF")?;
+    // let program_id: Pubkey = FromStr::from_str("rAFWJES5FBuTTy9U8gcD4YXwaGdKfHt5hE3xtiQYPRq")?;
     let program_client = client.program(program_id);
     println!("Program ID: {}", program_id);
 

@@ -61,7 +61,7 @@ const ExploreRafflesScreen: FC = () => {
 
   return (
     <>
-      <img src={floateesLogo} alt={'disord-logo'} />
+      <img src={floateesLogo} alt={'app/src/assets/disord-logo'} />
       <FilterBar
         hideEndedRaffles={hideEndedRaffles}
         setHideEndedRaffles={setHideEndedRaffles}

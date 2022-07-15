@@ -13,7 +13,7 @@ pub const FEE_WALLET: &str = "CumSkyxk3mrC6voinTHf3RVj46Az5C65kHpCRwUxmHJ5";
 pub const FEE_LAMPORTS: u64 = 12_690_000; // 0.01269 SOL
 pub const FEE_LAMPORTS_RAFFLE: u64 = 119_800_000; // 0.1198 SOL
 
-declare_id!("raFv43GLKy2ySi5oVExZxFGwdbKRRaDQBqikiY9YbVF");
+declare_id!("operations/program-keypair.json");
 
 #[program]
 pub mod draffle {
