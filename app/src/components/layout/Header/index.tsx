@@ -76,7 +76,7 @@ const Header: FC<HeaderProps> = ({ onBackNavigation }) => {
               >
                 <img
                   src='url(rafflebg.png)'
-                  alt={' banner'}
+                  alt={''}
                   className={classes.homeButtonIcon}
                 />
               </IconButton>
