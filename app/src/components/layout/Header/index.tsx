@@ -76,7 +76,7 @@ const Header: FC<HeaderProps> = ({ onBackNavigation }) => {
               >
                 <img
                   src="pnsclogo.png"
-                  alt={'Site banner'}
+                  alt={' banner'}
                   className={classes.homeButtonIcon}
                 />
               </IconButton>
