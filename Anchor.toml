@@ -1,0 +1,20 @@
+anchor_version = "0.23.0"
+
+[provider]
+cluster = "localnet"
+wallet = "operations/deploy-keypair.json"
+
+[programs.localnet]
+draffle = "rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R"
+
+[programs.devnet]
+draffle = "rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R"
+
+[programs.mainnet]
+draffle = "rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R"
+
+[scripts]
+test = "mocha -t 1000000 programs/tests"
+
+[registry]
+url = "https://anchor.projectserum.com"
