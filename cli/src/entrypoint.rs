@@ -21,7 +21,7 @@ use std::mem::size_of;
 use std::str::FromStr;
 use std::rc::Rc;
 
-const FEE_WALLET: &str = "pERajv8kgvHcPC6Wah6AoawqBMk6sWYc3BEQovMJAwV";
+const FEE_WALLET: &str = "pErLXusjgZkDJT9126Mb8hp8NZxmJoGniA6WEMPpNhb";
 
 #[derive(Default, Debug, Parser)]
 pub struct ConfigOverride {
@@ -34,7 +34,7 @@ pub struct ConfigOverride {
     #[clap(
         global = true,
         long = "program-id",
-        default_value = "raFZKVmR1KKgq4u6agEpfv9iyA5TWSrevrabLmo7eJL"
+        default_value = "rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R"
     )]
     pub program_id: String,
 }
@@ -100,10 +100,10 @@ pub fn entry(opts: Opts) -> Result<()> {
         ),
     };
     let client = Client::new_with_options(url, Rc::new(payer), CommitmentConfig::processed()); // client: Client::new and Client::new_with_options now accept Rc<dyn Signer> instead of Keypair (#975).
-    let program_id: Pubkey = FromStr::from_str("raFZKVmR1KKgq4u6agEpfv9iyA5TWSrevrabLmo7eJL")?;
-    // let program_id: Pubkey = FromStr::from_str("raFZKVmR1KKgq4u6agEpfv9iyA5TWSrevrabLmo7eJL")?;
+    let program_id: Pubkey = FromStr::from_str("rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R")?;
+    // let program_id: Pubkey = FromStr::from_str("rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R")?;
     let program_client = client.program(program_id);
-    println!("Program ID: {raFZKVmR1KKgq4u6agEpfv9iyA5TWSrevrabLmo7eJL}", program_id);
+    println!("{} {}", ("Program ID: {rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R}"), program_id);
 
     match opts.command {
         Command::ShowRaffle { raffle } => show_raffle(&program_client, raffle),

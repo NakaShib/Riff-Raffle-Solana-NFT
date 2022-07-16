@@ -5,13 +5,13 @@ cluster = "localnet"
 wallet = "operations/deploy-keypair.json"
 
 [programs.localnet]
-draffle = "raFZKVmR1KKgq4u6agEpfv9iyA5TWSrevrabLmo7eJL"
+draffle = "rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R"
 
 [programs.devnet]
-draffle = "raFZKVmR1KKgq4u6agEpfv9iyA5TWSrevrabLmo7eJL"
+draffle = "rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R"
 
 [programs.mainnet]
-draffle = "raFZKVmR1KKgq4u6agEpfv9iyA5TWSrevrabLmo7eJL"
+draffle = "rafRCJ66DK1kpfUqvF9VsDfjREzGZCyNVBAB8AeoE5R"
 
 [scripts]
 test = "mocha -t 1000000 programs/tests"

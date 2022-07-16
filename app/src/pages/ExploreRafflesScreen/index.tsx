@@ -54,7 +54,7 @@ const ExploreRafflesScreen: FC = () => {
     return (
       <>
         <Typography variant="h1" className={classes.titleBar}>
-          Raffles will be coming soon!
+          WTF is Coming Soon??
         </Typography>
       </>
     );
@@ -86,7 +86,7 @@ const ExploreRafflesScreen: FC = () => {
         </Grid>
       ) : (
         <Typography variant="h4" className={classes.mainContent}>
-          No raffles to display.
+          WTF is going on?? More Raffles Coming Soon.
         </Typography>
       )}
     </>

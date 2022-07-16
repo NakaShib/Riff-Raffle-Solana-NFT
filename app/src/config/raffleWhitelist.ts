@@ -22,55 +22,41 @@ const testWhitelist = new Map<string, RaffleMetaData>([
 ]);
 
 const prodWhitelist = new Map<string, RaffleMetaData>([
-  [
-    'B1o85io2sg2fe8cCyAZzs1P5mV1FEqwXEMxzdQmPBFqS',
-    {
-      name: 'HIGH ROLLER RAFFLE',
-      overviewImageUri: '/resources/HR-SAMPLE.png',
-    },
-  ],
-  [
-    'HVLCQedjPQZNVAxqF1yRaiMS1x38u214n9iCHpU9Ba5F',
-    {
-      name: 'HIGH JUICE RAFFLE',
-      overviewImageUri: '/resources/JUICELOGO.png',
-    },
-  ],
-  [
-    'FRGonS74qLUgUZKsqKwLxLumX4qyudgn4e9B17mm6991',
-    {
-      name: 'HIGH JUICE #120',
-      overviewImageUri: '/resources/JUICELOGO.png',
-    },
-  ],
-  [
-    'CxTfR4vapzcyhyGrDQaPDxt6Tw6xtkEK5NdcFVKT5H4p',
-    {
-      name: 'HR #5',
-      overviewImageUri: '/resources/HR-SAMPLE.png',
-    },
-  ],
-  [
-    '5XBgBqQpZm824mJdS6oGidUBSPQrBQ5wCmMxPVqFQrw5',
-    {
-      name: 'HR #5',
-      overviewImageUri: '/resources/HR-SAMPLE.png',
-    },
-  ],
-  [
-    '6JoAK9mmB5fgJmSTZdYSkR7EY3HQPmUMUqTtJEzprQ7i',
-    {
-      name: 'NEW RAFFLE222',
-      overviewImageUri: '/resources/raffleBG.png',
-    },
-  ],
-  [
-    '7j1HKPQKfzwqw2toHB9Px3Tw75GVsPpfNDTRhQh8zfg7',
-    {
-      name: 'NEW RAFFLE111',
-      overviewImageUri: '/resources/rafflebg.png',
-    },
-  ],
+// [
+ //   'sPcMGrTuiBz3dQ5kJu9MBj65E6qBqXpZ83VYxzMpFoj',
+ //   {
+ //     name: 'HIGH ROLLER #726 PNP RAFFLE',
+ //     overviewImageUri: '/resources/PRIZE1.png',
+ //   },
+ // ],
+//  [
+    //'GeUFserhuyTrLQdANwHWrcREX866pBSUskHPXFxnUFt7',
+   // {
+    //  name: 'HIGH ROLLER #1080 SOL RAFFLE',
+   //   overviewImageUri: '/resources/PRIZE2.png',
+   // },
+//  ],
+ // [
+   // '7j1HKPQKfzwqw2toHB9Px3Tw75GVsPpfNDTRhQh8zfg7',
+   // {
+    //  name: 'HIGH ROLLER #1118 PNP RAFFLE',
+   //   overviewImageUri: '/resources/PRIZE3.png',
+  //  },
+  //],
+ // [
+   // '',
+   // {
+    //  name: 'HIGH JUICE RAFFLE',
+   //   overviewImageUri: '/resources/JUICELOGO.png',
+   // },
+  //],
+  //[
+    //'',
+    //{
+    //  name: 'LEDGER RAFFLE',
+    //  overviewImageUri: '/resources/LEDGER NANO.jpg',
+    //},
+  //],
 ]);
 
 export const RAFFLES_WHITELIST = TESTING ? testWhitelist : prodWhitelist;

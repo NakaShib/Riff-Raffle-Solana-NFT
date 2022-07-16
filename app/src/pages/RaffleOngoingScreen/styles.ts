@@ -66,7 +66,7 @@ export const useStyles = makeStyles<Theme, { device: DeviceType }>(
       marginTop: '10px',
       fontSize: device === DeviceType.Phone ? '32px' : '60px',
       color: 'white',
-      WebkitTextStrokeWidth: '2px',
+      WebkitTextStrokeWidth: '3px',
       WebkitTextStrokeColor: theme.palette.secondary.main,
       textShadow: `0 0 10px ${theme.palette.secondary.main}`,
     }),
